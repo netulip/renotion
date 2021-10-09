@@ -1,0 +1,39 @@
+{
+  "name": "@netulip/renotion",
+  "version": "0.0.1",
+  "license": "MIT",
+  "description": "Notion's blocks parser and converter",
+  "keywords": [
+    "notion",
+    "blocks",
+    "parser",
+    "converter",
+    "markdown",
+    "html"
+  ],
+  "main": "dist/index.js",
+  "typings": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "test": "jest"
+  },
+  "author": "Mohamed Meftah <https://tedmeftah.com>",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/netulip/renotion.git"
+  },
+  "bugs": {
+    "url": "https://github.com/netulip/renotion/issues"
+  },
+  "homepage": "https://github.com/netulip/renotion#readme",
+  "devDependencies": {
+    "@types/jest": "^27.0.2",
+    "jest": "^27.2.5",
+    "ts-jest": "^27.0.5",
+    "ts-node": "^10.2.1",
+    "typescript": "^4.4.3"
+  },
+  "dependencies": {
+    "mdast-builder": "^1.1.1"
+  }
+}
