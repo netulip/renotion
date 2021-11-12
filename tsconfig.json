@@ -1,5 +1,6 @@
 {
   "compilerOptions": {
+    "baseUrl": ".",
     "outDir": "dist",
     "target": "ESNext",
     "module": "ESNext",
@@ -18,7 +19,10 @@
     "noUnusedLocals": true,
     "noImplicitReturns": true,
     "noFallthroughCasesInSwitch": true,
-    "skipLibCheck": true
+    "skipLibCheck": true,
+    "paths": {
+      "@/*": ["/src/*", "/dist/*"]
+    }
   },
   "include": ["src"],
   "exclude": ["node_modules", "lib"]

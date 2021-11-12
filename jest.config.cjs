@@ -8,5 +8,8 @@ module.exports = {
     "^.+\\.tsx?$": "ts-jest",
   },
   moduleFileExtensions: ["ts", "tsx", "js", "jsx", "json", "node"],
+  moduleNameMapper: {
+    "@/(.*)": "./src/$1",
+  },
   testPathIgnorePatterns: ["/dist/", "/node_modules/"],
 };
